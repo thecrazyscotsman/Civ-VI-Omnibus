@@ -54,6 +54,7 @@ I've also implemented a UserSettings.sql document within the mod. At this time t
 A truly fun game of civilization is a balanced one, in that no single strategy is a sure-fire way to victory. I'm committed to constantly tweaking and updating this mod based on your feedback, which is crucial to meeting all of these goals.
 
 I hope that you'll help me play and test this modpack to improve the core Civ VI game experience.
+
 ----------------------------------------------------------------------------------------------------------------
 -Rulesets
 
