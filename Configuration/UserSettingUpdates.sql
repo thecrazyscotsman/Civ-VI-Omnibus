@@ -122,7 +122,7 @@ WHERE Name = 'CITY_MIN_RANGE'
 AND EXISTS (SELECT * FROM Omnibus_UserSettings WHERE Setting = 'TCS_MIN_CITY_RANGE' AND Toggle = 1);
 UPDATE Buildings
 SET RegionalRange = RegionalRange + 1
-WHERE EXISTS (SELECT * FROM Omnibus_UserSettings WHERE Setting = 'TCS_MIN_CITY_RANGE' AND Toggle = 1);
+WHERE RegionalRange > 0 AND EXISTS (SELECT * FROM Omnibus_UserSettings WHERE Setting = 'TCS_MIN_CITY_RANGE' AND Toggle = 1);
 UPDATE GlobalParameters SET Value = (SELECT Value FROM GlobalParameters WHERE Name = 'CITY_MIN_RANGE') + 7 
 WHERE Name = 'RELIGION_SPREAD_ADJACENT_CITY_DISTANCE';
 UPDATE GlobalParameters SET Value = (SELECT Value FROM GlobalParameters WHERE Name = 'CITY_MIN_RANGE') + 6 
