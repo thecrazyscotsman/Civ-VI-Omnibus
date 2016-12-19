@@ -3,6 +3,8 @@ LATEST VERSION: 1.2.3, 18 Dec 2016
 
 Full feature list available here: https://forums.civfanatics.com/resources/thecrazyscotsmans-omnibus.25695/
 
+View the repository Wiki page for Mod Goals
+
 ----------------------------------------------------------------------------------------------------------------
 INSTALLATION INSTRUCTIONS
 
