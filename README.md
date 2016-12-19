@@ -23,6 +23,16 @@ Alternatively, you can manually edit the game's Icon files if, for example, you 
 Civilization VI introduces rulesets, a way for modders to provide options within their mods. This mod utilizes this feature extensively by providing three rulesets: Standard, Enhanced, and Complete. In order to select a ruleset other than Standard, you must use Advanced Options when creating a new game and then select from the Ruleset dropdown menu.
 
 ----------------------------------------------------------------------------------------------------------------
+###USER SETTINGS###
+
+I have included a **UserSettings.sql** document within the main mod directory. There are several features included within this file which you may turn on or leave off at your discretion. Currently, these options include:
+
+* Raging barbarians
+* Smaller Eureka/Inspiration bonuses
+* Greater distance between cities
+* Higher base movement for all units
+
+----------------------------------------------------------------------------------------------------------------
 ###COMPATIBILITY###
 
 Review the list below to see which mods are incompatible with each ruleset:
