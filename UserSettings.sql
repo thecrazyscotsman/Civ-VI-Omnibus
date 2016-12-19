@@ -39,7 +39,7 @@ INSERT INTO Omnibus_UserSettings
 			-- 1 = Eurekas reduced to 40%
 			-- 2 = Eurekas reduced to 25%
 			-- 3 = Eurekas reduced to 10%
-		('TCS_SMALLER_EUREKAS',					2),
+		('TCS_SMALLER_EUREKAS',					0),
 		
 		--Increases Settler population cost to 2 in all rulesets
 			-- 0 = Disabled (Default)
@@ -55,4 +55,4 @@ INSERT INTO Omnibus_UserSettings
 			-- 0 = Disabled (Default)
 			-- 1 = All movement increased by 1
 			-- 2 = All movement increased by 2
-		('TCS_QUOS_ROCKETBOOTS',				2);
+		('TCS_QUOS_ROCKETBOOTS',				0);
