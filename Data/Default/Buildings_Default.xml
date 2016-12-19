@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with Notepad++ by thecrazyscotsman -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_TCS_CISTERN" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TCS_WATER_TREATMENT_PLANT" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<!--UPDATES-->
+		<!--City Center-->
+		<Update>
+			<Where BuildingType="BUILDING_GRANARY"/>
+			<Set Housing="1" Description="LOC_BUILDING_GRANARY_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_SEWER"/>
+			<Set Housing="2" Entertainment="1" Description="LOC_BUILDING_SEWER_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_WATER_MILL"/>
+			<Set Housing="1"/>
+		</Update>
+		<!--Campus District-->
+		<Update>
+			<Where BuildingType="BUILDING_LIBRARY"/>
+			<Set CitizenSlots="0"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_UNIVERSITY"/>
+			<Set CitizenSlots="1" Description="LOC_BUILDING_UNIVERSITY_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MADRASA"/>
+			<Set CitizenSlots="1" Description="LOC_BUILDING_MADRASA_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_RESEARCH_LAB"/>
+			<Set CitizenSlots="2" Description="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION"/>
+		</Update>
+		
+		<!--Commercial District-->
+		<Update>
+			<Where BuildingType="BUILDING_MARKET"/>
+			<Set CitizenSlots="0"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BANK"/>
+			<Set CitizenSlots="1" Description="LOC_BUILDING_BANK_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
+			<Set CitizenSlots="2" Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION"/>
+		</Update>
+		
+		<!--Entertainment District-->
+		<Update>
+			<Where BuildingType="BUILDING_ARENA"/>
+			<Set Description="LOC_BUILDING_ARENA_DESCRIPTION"/>
+		</Update>
+		
+		<!--Industrial District-->
+		<Update>
+			<Where BuildingType="BUILDING_WORKSHOP"/>
+			<Set CitizenSlots="0"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FACTORY"/>
+			<Set RegionalRange="0" Description="LOC_BUILDING_FACTORY_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_ELECTRONICS_FACTORY"/>
+			<Set RegionalRange="0" CitizenSlots="2" Description="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION"/>
+		</Update>
+		
+		<!--Theater District-->
+		<Update>
+			<Where BuildingType="BUILDING_AMPHITHEATER"/>
+			<Set CitizenSlots="0" Description="LOC_BUILDING_AMPHITHEATER_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MUSEUM_ART"/>
+			<Set CitizenSlots="1" Description="LOC_BUILDING_MUSEUM_ART_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MUSEUM_ARTIFACT"/>
+			<Set CitizenSlots="1" Description="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BROADCAST_CENTER"/>
+			<Set CitizenSlots="2" Description="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FILM_STUDIO"/>
+			<Set CitizenSlots="2" Description="LOC_BUILDING_FILM_STUDIO_DESCRIPTION"/>
+		</Update>
+		
+		<!--NEW-->
+		<!--City Center-->
+		<Row BuildingType="BUILDING_TCS_CISTERN" Name="LOC_BUILDING_CISTERN_NAME" Description="LOC_BUILDING_CISTERN_DESCRIPTION" PrereqTech="TECH_IRRIGATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_GENERIC" Housing="2" Maintenance="1"/>
+		<Row BuildingType="BUILDING_TCS_WATER_TREATMENT_PLANT" Name="LOC_BUILDING_WATER_TREATMENT_NAME" Description="LOC_BUILDING_WATER_TREATMENT_DESCRIPTION" PrereqTech="TECH_PLASTICS" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="600" AdvisorType="ADVISOR_GENERIC" Housing="2" Entertainment="1" Maintenance="2"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_SEWER" PrereqBuilding="BUILDING_TCS_CISTERN"/>
+		<Row Building="BUILDING_TCS_WATER_TREATMENT_PLANT" PrereqBuilding="BUILDING_SEWER"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Delete BuildingType="BUILDING_GRANARY"/>
+		<Delete BuildingType="BUILDING_WATER_MILL"/>
+		<Delete BuildingType="BUILDING_LIGHTHOUSE"/>
+		<Delete BuildingType="BUILDING_SHIPYARD"/>
+		<Delete BuildingType="BUILDING_SEAPORT"/>
+		<Delete BuildingType="BUILDING_FACTORY"/>
+		<Delete BuildingType="BUILDING_ELECTRONICS_FACTORY"/>
+		<Delete BuildingType="BUILDING_BANK"/>
+		<Delete BuildingType="BUILDING_UNIVERSITY"/>
+		<Delete BuildingType="BUILDING_MUSEUM_ART"/>
+		<Delete BuildingType="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row BuildingType="BUILDING_WATER_MILL" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_WATER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Update>
+			<Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_RESEARCH_LAB"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_BROADCAST_CENTER"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FILM_STUDIO"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_POWER_PLANT"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MADRASA"/>
+			<Set YieldType="YIELD_FAITH"/>
+		</Update>
+	</Building_YieldChanges>
+	<Building_YieldDistrictCopies>
+		<Delete BuildingType="BUILDING_SHIPYARD" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_PRODUCTION"/>
+		<Update>
+			<Where BuildingType="BUILDING_MADRASA"/>
+			<Set NewYieldType="YIELD_SCIENCE"/>
+		</Update>
+		<Row BuildingType="BUILDING_FACTORY" OldYieldType="YIELD_PRODUCTION" NewYieldType="YIELD_PRODUCTION"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" OldYieldType="YIELD_PRODUCTION" NewYieldType="YIELD_PRODUCTION"/>
+		<Row BuildingType="BUILDING_BANK" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_GOLD"/>
+		<Row BuildingType="BUILDING_UNIVERSITY" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_SCIENCE"/>
+		<Row BuildingType="BUILDING_MUSEUM_ART" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" OldYieldType="YIELD_CULTURE" NewYieldType="YIELD_CULTURE"/>
+	</Building_YieldDistrictCopies>
+	<StartingBuildings>
+		<Row Era="ERA_INDUSTRIAL" Building="BUILDING_TCS_CISTERN" District="DISTRICT_CITY_CENTER"/>
+	</StartingBuildings>
+	<Modifiers>
+		<Row>
+			<ModifierId>TCS_STOCKEXCHANGE_ADDGOLDYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TCS_RESEARCHLAB_ADDSCIENCEYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TCS_BROADCASTTOWER_ADDCULTUREYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TCS_STOCKEXCHANGE_ADDGOLDYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TCS_STOCKEXCHANGE_ADDGOLDYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TCS_RESEARCHLAB_ADDSCIENCEYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TCS_RESEARCHLAB_ADDSCIENCEYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TCS_BROADCASTTOWER_ADDCULTUREYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TCS_BROADCASTTOWER_ADDCULTUREYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<ModifierId>TCS_STOCKEXCHANGE_ADDGOLDYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RESEARCH_LAB</BuildingType>
+			<ModifierId>TCS_RESEARCHLAB_ADDSCIENCEYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_CENTER</BuildingType>
+			<ModifierId>TCS_BROADCASTTOWER_ADDCULTUREYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FILM_STUDIO</BuildingType>
+			<ModifierId>TCS_BROADCASTTOWER_ADDCULTUREYIELD</ModifierId>
+		</Row>
+	</BuildingModifiers>
+</GameInfo>

@@ -1,0 +1,77 @@
+<GameData>
+	<LocalizedText>
+		<!--GREAT WORKS-->
+		<Replace Tag="LOC_BUILDING_THEMINGBONUS_WRITING" Language="en_US">
+			<Text>Theming bonus increasing output by 50% when displaying [ICON_GreatWork_Writing] writings from different authors.</Text>
+		</Replace>	
+		<Replace Tag="LOC_BUILDING_THEMINGBONUS_BROADWAY" Language="en_US">
+			<Text>Theming bonus increasing output by 50% when displaying any combination of [ICON_GreatWork_Music] music or [ICON_GreatWork_Writing] writings from different Great People.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_THEMINGBONUS_MUSIC" Language="en_US">
+			<Text>Theming bonus increasing output by 50% when displaying [ICON_GreatWork_Music] music from different musicians.</Text>
+		</Replace>
+		
+		<!--IMPROVEMENTS-->
+		<!--Updates-->
+		<Replace Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION" Language="en_US">
+			<Text>Grants occupying units +4 [ICON_Strength] Defense Strength, 2 free turns of fortification, +1 Sight, and +5 increased heal rate.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct the Great Wall, unique to China.[NEWLINE][NEWLINE]Provides occupying units an increase to [ICON_Strength] Defense, Sight, and Healing.[NEWLINE][NEWLINE]Bonus to [ICON_Gold] Gold if adjacent to other segments. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Technology Tree for adjacent segments. Must be built in a line along the borders of your empire.</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Roman Legion ability to construct a Roman Fort, unique to Rome.[NEWLINE][NEWLINE]Grants occupying units +4 [ICON_Strength] Defense Strength, 2 free turns of fortification, +1 Sight, and +5 increased heal rate.</Text>
+		</Replace>
+		
+		<!--POLICIES-->
+		<!--New-->
+		<Replace Tag="LOC_POLICY_TCS_ARMY_ENGINEER_CORPS_NAME" Language="en_US">
+			<Text>Army Engineer Corps</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_TCS_ARMY_ENGINEER_CORPS_DESCRIPTION" Language="en_US">
+			<Text>Newly trained Military Engineers gain 3 extra build actions.</Text>
+		</Replace>	
+		
+		<!--ROUTES-->
+		<!--Updates-->
+		<Replace Tag="LOC_ROUTE_INDUSTRIAL_ROAD_NAME" Language="en_US">
+			<Text>Renaissance Road</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MOVEMENT_2_CHAPTER_CONTENT_PARA_1" Language="en_US">
+			<Text>Roads give a much bigger speed boost than before, felt from the Classical era to the Modern. As well as adding bridges, Classical roads reduce the [ICON_Movement] Movement cost by a modest amount. Renaissance roads reduce this further, and Modern roads cut it down to a tiny quarter [ICON_Movement] Movement point per tile. All roads allow units to ignore terrain-based movement penalties.</Text>
+		</Replace>
+		
+		<!--UNIT ABILITIES-->
+		<!--New-->
+		<Replace Tag="LOC_ABILITY_TCS_NAVAL_RAIDER_ENTER_FOREIGN_LANDS_NAME" Language="en_US">
+			<Text>Enter Foreign Lands</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_TCS_NAVAL_RAIDER_ENTER_FOREIGN_LANDS_DESCRIPTION" Language="en_US">
+			<Text>This unit can enter foreign territory even without Open Borders.</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_TCS_ENABLE_CLIMB_CLIFFS_NAME" Language="en_US">
+			<Text>Engineer Corps</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_TCS_ENABLE_CLIMB_CLIFFS_DESCRIPTION" Language="en_US">
+			<Text>Can scale Cliff walls.</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_FORT_BONUS_SIGHT_NAME" Language="en_US">
+			<Text>Defensive Improvement Bonus Sight</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_FORT_BONUS_SIGHT_DESCRIPTION" Language="en_US">
+			<Text>This unit receives +1 Sight when garrisoned in a defensive improvement.</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_BONUS_HEAL_NAME" Language="en_US">
+			<Text>Defensive Improvement Bonus Healing</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_BONUS_HEAL_DESCRIPTION" Language="en_US">
+			<Text>This unit heals an additional +5 per turn when healing while garrisoned in a defensive improvement.</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_REVEAL_STEALTH_NAME" Language="en_US">
+			<Text>Defensive Improvement Reveal Stealth</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_DEFENSIVE_IMPROVEMENT_REVEAL_STEALTH_DESCRIPTION" Language="en_US">
+			<Text>This unit can see stealth units when garrisoned in a defensive improvement.</Text>
+		</Replace>	
+	</LocalizedText>
+</GameData>	

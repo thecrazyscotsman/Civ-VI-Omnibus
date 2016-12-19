@@ -1,0 +1,42 @@
+<GameInfo>
+	<GlobalParameters>
+		<Update>
+			<Where Name="DISTRICT_POPULATION_REQUIRED_PER"/>
+			<Set Value="4"/>
+		</Update>
+		<Update>
+			<Where Name="SCIENCE_PERCENTAGE_YIELD_PER_POP"/>
+			<Set Value="50"/>
+		</Update>
+	</GlobalParameters>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="MINOR_CIV_SCIENTIFIC_YIELD_FOR_CAMPUS" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_RELIGIOUS_YIELD_FOR_HOLY_SITE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId ="MINOR_CIV_TRADE_YIELD_FOR_CAPITAL" Name="Amount"/>
+			<Set Value ="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_TRADE_YIELD_FOR_COMMERCIAL_HUB" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_CULTURAL_YIELD_FOR_THEATER_DISTRICT" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_BUILDING_PRODUCTION_FOR_INDUSTRIAL_ZONE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="MINOR_CIV_INDUSTRIAL_DISTRICT_PRODUCTION_FOR_INDUSTRIAL_ZONE" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+	</ModifierArguments>
+</GameInfo>

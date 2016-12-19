@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with Notepad++ by thecrazyscotsman -->
+<Mod id="ee599f02-20dc-4800-b660-0e0f83e17829" version="123">
+	<Properties>
+		<Name>LOC_OMNIBUS_NAME</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>LOC_OMNIBUS_TEASER</Teaser>
+		<Description>LOC_OMNIBUS_DESCRIPTION</Description>
+		<Authors>LOC_OMNIBUS_AUTHORS</Authors>
+		<SpecialThanks>LOC_OMNIBUS_THANKS</SpecialThanks>
+	</Properties>
+	<Dependencies />
+	<References />
+	<Blocks />
+	
+	<Settings>
+		<Custom id="TCS_OMNIBUS_SETTING">
+			<Items>
+				<File>Configuration/Config.xml</File>
+			</Items>
+		</Custom>
+		<LocalizedText id="TCS_OMNIBUS_SETTING">
+			<Items>
+				<File>Configuration/Config_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+	
+	<Components>
+		<UpdateDatabase id="TCS_DEFAULT_COMPONENT">
+			<Items>
+				<File>Data/Default/BuffedYields_Default.sql</File>
+				<File>Data/Default/Buildings_Default.xml</File>
+				<File>Data/Default/Districts_Default.xml</File>
+				<File>Data/Default/Policies_Default.sql</File>
+				<File>Data/Default/Misc_Default.xml</File>
+				<File>Data/Default/Modifiers_Default.sql</File>
+				<File>UserSettings.sql</File>
+				<File>Configuration/UserSettingUpdates.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="RULESET_ENHANCED">
+			<Properties>
+				<RuleSet>RULESET_ENHANCED</RuleSet>
+			</Properties>
+			<Items>
+				<File>Data/Enhanced/GreatWorks_Enhanced.xml</File>
+				<File>Data/Enhanced/Policies_Enhanced.xml</File>
+				<File>Data/Enhanced/Units_Enhanced.sql</File>
+				<File>Data/Enhanced/Misc_Enhanced.sql</File>
+				<File>Data/Enhanced/Modifiers_Enhanced.sql</File>
+				<File>Data/Enhanced/8AgesofPace_Enhanced.xml</File>
+				<File>Data/Enhanced/8AgesofPace_Enhanced.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="RULESET_COMPLETE">
+			<Properties>
+				<RuleSet>RULESET_COMPLETE</RuleSet>
+			</Properties>
+			<Items>
+				<File>Data/Enhanced/GreatWorks_Enhanced.xml</File>
+				<File>Data/Enhanced/Policies_Enhanced.xml</File>
+				<File>Data/Enhanced/Units_Enhanced.sql</File>
+				<File>Data/Enhanced/Misc_Enhanced.sql</File>
+				<File>Data/Enhanced/Modifiers_Enhanced.sql</File>
+				<File>Data/Complete/StrategicUnits_Biao_Complete.sql</File>
+				<File>Data/Complete/Tech and Civic Overhaul/TnC_Technologies_Complete.sql</File>
+				<File>Data/Complete/Tech and Civic Overhaul/TnC_Civics_Complete.sql</File>
+				<File>Data/Complete/Tech and Civic Overhaul/TnC_Buildings_Complete.sql</File>
+				<File>Data/Complete/Tech and Civic Overhaul/TnC_Policies_Complete.sql</File>
+				<File>Data/Complete/Tech and Civic Overhaul/TnC_CityStates_Complete.sql</File>
+				<File>Data/Complete/Tech and Civic Overhaul/TnC_Modifiers_Complete.sql</File>
+				<File>Data/Complete/Tech and Civic Overhaul/TnC_Misc_Complete.sql</File>
+				<File>Data/Enhanced/8AgesofPace_Enhanced.xml</File>
+				<File>Data/Enhanced/8AgesofPace_Enhanced.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="TCS_DEFAULT_COMPONENT">
+			<Items>
+				<File>Text/Default_Text.xml</File>
+			</Items>
+		</LocalizedText>
+		<LocalizedText id="RULESET_ENHANCED">
+			<Properties>
+                <RuleSet>RULESET_ENHANCED</RuleSet>
+            </Properties>
+			<Items>
+				<File>Text/Enhanced_Text.xml</File>
+			</Items>
+		</LocalizedText>
+		<LocalizedText id="RULESET_COMPLETE">
+			<Properties>
+                <RuleSet>RULESET_COMPLETE</RuleSet>
+            </Properties>
+			<Items>
+				<File>Text/Enhanced_Text.xml</File>
+				<File>Text/StrategicUnits_Complete_Text.xml</File>
+				<File>Text/TnC_Complete_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>	
+	
+	<LocalizedText>
+		<Text id="LOC_OMNIBUS_NAME">
+			<en_US>TCS Omnibus Mod 1.2.3</en_US>
+		</Text>
+		<Text id="LOC_OMNIBUS_AUTHORS">
+			<en_US>thecrazyscotsman</en_US>
+		</Text>
+		<Text id="LOC_OMNIBUS_THANKS">
+			<en_US>Gedemon for assistance in with the modinfo structure[NEWLINE]Biao for his Strategic Resource Units mod</en_US>
+		</Text>
+		<Text id="LOC_OMNIBUS_TEASER">
+			<en_US>This Omnibus provides three different options for a variety of gameplay overhauls and enhancements.</en_US>		
+		</Text>
+		<Text id="LOC_OMNIBUS_DESCRIPTION">
+			<en_US>This Omnibus provides three different options for a variety of gameplay overhauls and enhancements.[NEWLINE][NEWLINE]Standard: overhauls district specialization, adjacency bonuses, and buffs resources[NEWLINE]Enhanced: Standard + minor improvements to theming bonuses, defensive improvements, and several units[NEWLINE]Complete: Enhanced + complete overhaul of strategic resource combat</en_US>		
+		</Text>
+	</LocalizedText>	
+	
+	<Files>
+		<File>Configuration/Config.xml</File>
+		<File>Configuration/Config_Text.xml</File>
+		<File>UserSettings.sql</File>
+		<File>Configuration/UserSettingUpdates.sql</File>
+		<File>Data/Default/BuffedYields_Default.sql</File>
+		<File>Data/Default/Buildings_Default.xml</File>
+		<File>Data/Default/Districts_Default.xml</File>
+		<File>Data/Default/Policies_Default.sql</File>
+		<File>Data/Default/Misc_Default.xml</File>
+		<File>Data/Default/Modifiers_Default.sql</File>
+		<File>Data/Enhanced/GreatWorks_Enhanced.xml</File>
+		<File>Data/Enhanced/Policies_Enhanced.xml</File>
+		<File>Data/Enhanced/Units_Enhanced.sql</File>
+		<File>Data/Enhanced/Misc_Enhanced.sql</File>
+		<File>Data/Enhanced/Modifiers_Enhanced.sql</File>
+		<File>Data/Complete/StrategicUnits_Biao_Complete.sql</File>
+		<File>Data/Complete/Tech and Civic Overhaul/TnC_Technologies_Complete.sql</File>
+		<File>Data/Complete/Tech and Civic Overhaul/TnC_Civics_Complete.sql</File>
+		<File>Data/Complete/Tech and Civic Overhaul/TnC_Policies_Complete.sql</File>
+		<File>Data/Complete/Tech and Civic Overhaul/TnC_Buildings_Complete.sql</File>
+		<File>Data/Complete/Tech and Civic Overhaul/TnC_CityStates_Complete.sql</File>
+		<File>Data/Complete/Tech and Civic Overhaul/TnC_Modifiers_Complete.sql</File>
+		<File>Data/Complete/Tech and Civic Overhaul/TnC_Misc_Complete.sql</File>
+		<File>Data/Enhanced/8AgesofPace_Enhanced.xml</File>
+		<File>Data/Enhanced/8AgesofPace_Enhanced.sql</File>
+		<File>Text/Default_Text.xml</File>
+		<File>Text/Enhanced_Text.xml</File>
+		<File>Text/StrategicUnits_Complete_Text.xml</File>
+		<File>Text/TnC_Complete_Text.xml</File>
+	</Files>
+</Mod>

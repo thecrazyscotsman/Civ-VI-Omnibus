@@ -1,0 +1,304 @@
+<GameData>
+	<LocalizedText>
+		<!--BUG FIXES-->
+		<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_Production] Production in this city, and +1 [ICON_Production] Production for each Mine and Quarry in this city. Must be built along a River adjacent to an Industrial Zone district with a Factory.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_INTEL_RELATIONSHIP_NOTHING_ABJECT" Language="en_US">
+			<Text>Nothing is adversely affecting your relationship at this point in time.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOMACY_INTEL_ACCESS_LEVEL_COLON_TOOLTIP" Language="en_US">
+			<Text>View important information about your Access Level with this leader, including what kinds of Gossip you will have access to.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_CLEO" Language="en_US">
+			<Text>Greetings traveler. You should know that you stand in the presence of greatness.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_CHOICE_DECLARE_LIBERATION_WAR" Language="en_US">
+			<Text>[SIZE_16]Declare War of Liberation[NEWLINE][SIZE_12](No warmongering if liberating friendly cities)[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_CHOICE_DECLARE_RECONQUEST_WAR" Language="en_US">
+			<Text>[SIZE_16]Declare War of Reconquest[NEWLINE][SIZE_12](No warmongering if re-capturing your cities)[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_CHOICE_DECLARE_PROTECTORATE_WAR" Language="en_US">
+			<Text>[SIZE_16]Declare Protectorate War[NEWLINE][SIZE_12](No warmongering if defending allied city-state)[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_CHOICE_DENOUNCE" Language="en_US">
+			<Text>[COLOR_Civ6Red]Denounce[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_CHOICE_POSITIVE" Language="en_US">
+			<Text>That is too bad. I thought we were friends.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_STANDING_ARMY" Language="en_US">
+			<Text>You have so few troops. Aren't you scared for your life?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_PARANOID" Language="en_US">
+			<Text>Your cities are so close. Your troops are so strong. You are making me nervous!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_ AGENDA_WONDER_ADVOCATE" Language="en_US">
+			<Text>Do you not realize that we are supposed to be the pre-eminent builders of wonders?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ANY_REASON_AGENDA_LOW_INCOME" Language="en_US">
+			<Text>Your empire is headed toward bankruptcy. How can you survive with debt piling up?</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_CITY_LIBERATED" Language="en_US">
+			<Text>{1_CivName} has just liberated {2_CityName}, giving it back to {3_CivName}.</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_AMENITIES_CIVICS" Language="en_US">
+			<Text>{1_Num} = Amenities From Policies[NEWLINE]</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_AMENITIES_FROM_CIVICS" Language="en_US">
+			<Text>Amenities from Policies:</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_AMENITIES_LOST_FROM_WAR_WEARINESS" Language="en_US">
+			<Text>Amenities lost from [COLOR_Civ6Red]War Weariness[ENDCOLOR]:</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_AMENITIES_LOST_FROM_BANKRUPTCY" Language="en_US">
+			<Text>Amenities lost from [COLOR_Civ6Red]Bankruptcy[ENDCOLOR]:</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_HOUSING_BREAKDOWN" Language="en_US">
+			<Text>Water {1_Water}, Buildings {2_Buildings}, Improvements {3_Improvements}, Neighborhoods {4_Districts}, Policies {5_Civics}</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_HOUSING_FROM_BUILDINGS" Language="en_US">
+			<Text>Housing from Buildings:</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_HOUSING_FROM_CIVICS" Language="en_US">
+			<Text>Housing from Policies:</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_HOUSING_FROM_DISTRICTS" Language="en_US">
+			<Text>Housing from Districts:</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_HOUSING_FROM_IMPROVEMENTS" Language="en_US">
+			<Text>Housing from Improvements:</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_HOUSING_FROM_WATER" Language="en_US">
+			<Text>Housing from Water:</Text>
+		</Replace>
+		
+		<!--BUILDINGS-->
+		<!--New-->
+		<Replace Tag="LOC_BUILDING_CISTERN_NAME" Language="en_US">
+			<Text>Cistern</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CISTERN_DESCRIPTION" Language="en_US">
+			<Text>Provides early [ICON_Housing] Housing in the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WATER_TREATMENT_NAME" Language="en_US">
+			<Text>Water Treatment Plant</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WATER_TREATMENT_DESCRIPTION" Language="en_US">
+			<Text>Provides late-game [ICON_Housing] Housing and [ICON_Amenities] Amenities in the City Center.</Text>
+		</Replace>
+		
+		<!--Updates-->
+		<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture to [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_MARBLE] Marble, [ICON_RESOURCE_DIAMONDS] Diamonds, and [ICON_RESOURCE_JADE] Jade resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ARENA_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ARMORY_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all land units trained in this city.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_IRON] Iron and [ICON_RESOURCE_NITER] Niter resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="en_US">
+			<Text>Bonus [ICON_Gold] Gold equal to the adjacency bonus of the Commercial district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BARRACKS_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all melee and ranged land units trained in this city.[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Stable.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_COPPER] Copper resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION" Language="en_US">
+			<Text>+15% [ICON_Culture] Culture in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Japan. Bonus [ICON_Production] Production equal to the adjacency bonus of the Industrial district. After researching the Electricity technology this building provides an additional +4 [ICON_Culture] Culture to its city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>Bonus [ICON_Production] Production equal to the adjacency bonus of the Industrial district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" Language="en_US">
+			<Text>A building unique to America. +15% [ICON_Culture] Culture in this city. +100% [ICON_Tourism] Tourism pressure from this city towards other civilizations in the Modern era.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food to [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_CATTLE] Cattle, [ICON_RESOURCE_CITRUS] Citrus, [ICON_RESOURCE_DEER] Deer, [ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_SHEEP] Sheep, and [ICON_RESOURCE_WHEAT] Wheat resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_LIGHTHOUSE_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all naval units trained in this city.[NEWLINE][NEWLINE]+1 [ICON_Food] Food from sea resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Arabia. Bonus [ICON_Science] Science equal to the adjacency bonus of the Campus district. Provides +5 [ICON_Faith] Faith to its city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="en_US">
+			<Text>Holds [ICON_GreatWork_Landscape] Great Works of Art. Bonus [ICON_Culture] Culture equal to the adjacency bonus of the Theater district. May not be built in a Theater Square district that already has an Archaeological Museum.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="en_US">
+			<Text>Holds [ICON_GreatWork_Artifact] Artifacts. Bonus [ICON_Culture] Culture equal to the adjacency bonus of the Theater district. May not be built in a Theater Square district that already has an Art Museum.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="en_US">
+			<Text>+15% [ICON_Science] Science in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="en_US">
+			<Text>Faster Fleet and Armada training. +25% combat experience for all naval units trained in this city.[NEWLINE][NEWLINE]+1 [ICON_Food] Food from Coast and Ocean tiles.[NEWLINE]+1 [ICON_Production] Production from sea resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION" Language="en_US">
+			<Text>Provides mid-game [ICON_Housing] Housing and [ICON_Amenities] Amenities in the City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHRINE_DESCRIPTION" Language="en_US">
+			<Text>Allows the purchasing of Missionaries. Missionaries can only be purchased with [ICON_Faith] Faith.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_INCENSE] Incense, and [ICON_RESOURCE_WINE] Wine resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STABLE_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all cavalry class units trained in this city. May not be built in an Encampment district that already has a Barracks.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_HORSES] Horse resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SHIPYARD_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all naval units trained in this city.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold from Coast and Ocean tiles.[NEWLINE]+1 [ICON_Food] Food from sea resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="en_US">
+			<Text>+15% [ICON_Gold] Gold in this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION" Language="en_US">
+			<Text>Bonus [ICON_Science] Science equal to the adjacency bonus of the Campus district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="en_US">
+			<Text>City must be adjacent to a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZOO_DESCRIPTION" Language="en_US">
+			<Text>Bonus extends to each city center within 6 tiles.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
+		</Replace>
+		
+		<!--CITY STATES-->
+		<!--Updates-->
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Science] Science in every Campus district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>Additional +1 [ICON_Science] Science in every Campus district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith in every Holy Site district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>Additional +1 [ICON_Faith] Faith in every Holy Site district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold in the [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold in every Commercial Hub district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>Additional +1 [ICON_Gold] Gold in every Commercial Hub district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture in every Theater Square district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>Additional +1 [ICON_Culture] Culture in every Theater Square district.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS" Language="en_US">
+			<Text>+1 [ICON_Production] Production in every Industrial Zone district when producing wonders, buildings, and districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS" Language="en_US">
+			<Text>Additional +1 [ICON_Production] Production in every Industrial Zone district when producing wonders, buildings, and districts.</Text>
+		</Replace>
+		
+		<!--DISTRICTS-->
+		<!--New-->
+		<Replace Tag="LOC_TCS_SEARESOURCE_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent sea {1_Num : plural 1?resource; other?resources;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CITYCENTER_GOLD2" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_CITYCENTER_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent City Center.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_ENTERTAINMENT_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Entertainment Complex.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_NEIGHBORHOOD_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Neighborhood {1_Num : plural 1?district; other?districts;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_TCS_COMMERCIAL_GOLD4" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub.</Text>
+		</Replace>
+		
+		<!--Updates-->
+		<Replace Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION" Language="en_US">
+			<Text>A district that provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center.[NEWLINE][NEWLINE]+1 [ICON_Food] Food to tiles up to two away.[NEWLINE]+2 [ICON_Food] Food to Oases.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BATH_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Rome for city growth. Replaces the Aqueduct district.[NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. Must be built adjacent to the City Center. In either case, the Bath provides an additional bonus of +2 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. Must be built adjacent to the City Center.[NEWLINE][NEWLINE]+1 [ICON_Food] Food to tiles up to two away.[NEWLINE]+2 [ICON_Food] Food to Oases.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CAMPUS_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for scientific endeavors.[NEWLINE][NEWLINE]+2 [ICON_Science] Science to [ICON_RESOURCE_MERCURY] Mercury and [ICON_RESOURCE_URANIUM] Uranium resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COMMERCIAL_HUB_DESCRIPTION" Language="en_US">
+			<Text>A district in your city specializing in finance and trade.[NEWLINE][NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity.[NEWLINE]+1 [ICON_Gold] Gold to [ICON_RESOURCE_FURS] Furs, [ICON_RESOURCE_SALT] Salt, [ICON_RESOURCE_COTTON] Cotton, [ICON_RESOURCE_DYES] Dyes, [ICON_RESOURCE_SILK] Silk, [ICON_RESOURCE_SPICES] Spices, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_TOBACCO] Tobacco, and [ICON_RESOURCE_SILVER] Silver resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for military facilities.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_COPPER] Copper, [ICON_RESOURCE_IRON] Iron, [ICON_RESOURCE_HORSES] Horses, and [ICON_RESOURCE_NITER] Niter resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="en_US">
+			<Text>A district in your city dedicated to keeping your people happy by increasing [ICON_Amenities] Amenities.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_STREET_CARNIVAL_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Brazil. Replaces the Entertainment Complex district, and provides +2 [ICON_Amenities] Amenities. Also unlocks the Carnival project, which grants an additional +1 [ICON_Amenities] Amenity when underway and a variety of [ICON_GreatPerson] Great People points once completed.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HOLY_SITE_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for religious worship.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_INCENSE] Incense, and [ICON_RESOURCE_WINE] Wine resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LAVRA_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Russia for religious activity. Replaces the Holy Site district.[NEWLINE][NEWLINE]Your city border grows by one tile each time a Great Person is expended in this city.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_INCENSE] Incense, and [ICON_RESOURCE_WINE] Wine resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HARBOR_DESCRIPTION" Language="en_US">
+			<Text>A district for naval activity in your city. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Food] Food from Coast and Ocean tiles.[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION" Language="en_US">
+			<Text>A district unique to England for naval activity in your city. Replaces the Harbor district. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval units built in Dockyard.[NEWLINE]+2 [ICON_Gold] Gold when built on a foreign continent.[NEWLINE]+1 [ICON_Food] Food from Coast and Ocean tiles.[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for industrial activity.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_GYPSUM] Gypsum, [ICON_RESOURCE_ALUMINUM] Aluminum, [ICON_RESOURCE_COAL] Coal, and [ICON_RESOURCE_OIL] Oil resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_HANSA_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Germany for industrial activity. Replaces the Industrial Zone district.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_GYPSUM] Gypsum, [ICON_RESOURCE_ALUMINUM] Aluminum, [ICON_RESOURCE_COAL] Coal, and [ICON_RESOURCE_OIL] Oil resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for cultural sites.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture to [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_MARBLE] Marble, [ICON_RESOURCE_DIAMONDS] Diamonds, and [ICON_RESOURCE_JADE] Jade resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Greece for cultural sites. Replaces the Theater Square district.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture to [ICON_RESOURCE_COFFEE] Coffee, [ICON_RESOURCE_TEA] Tea, and [ICON_RESOURCE_MARBLE] Marble resources.</Text>
+		</Replace>	
+		
+		<!--POLICIES-->
+		<!--New-->
+		<!--Updates-->
+		<Replace Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Gold] Gold from Commercial Hub district buildings.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Culture] Culture from Theater Square district buildings.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RATIONALISM_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Science] Science from Campus district buildings.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_AESTHETICS_DESCRIPTION" Language="en_US">
+			<Text>+50% Theater Square district adjacency bonuses.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION" Language="en_US">
+			<Text>+50% Industrial Zone adjacency bonuses.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_ECONOMIC_UNION_DESCRIPTION" Language="en_US">
+			<Text>+50% Commercial Hub and +100% Harbor district adjacency bonuses.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_FIVE_YEAR_PLAN_DESCRIPTION" Language="en_US">
+			<Text>+50% Campus and Industrial Zone district adjacency bonuses.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION" Language="en_US">
+			<Text>+50% Campus district adjacency bonuses.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION" Language="en_US">
+			<Text>+50% Theater Square district adjacency bonuses, and Stadiums generate +1 [ICON_Amenities] Amenity.</Text>
+		</Replace>	
+		<Replace Tag="LOC_POLICY_TOWN_CHARTERS_DESCRIPTION" Language="en_US">
+			<Text>+50% Commercial Hub district adjacency bonuses.</Text>
+		</Replace>	
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,71 @@
+<GameInfo>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_AERODROME"/>
+			<Set RequiresPopulation="false"/>
+		</Update>
+	</Districts>
+	<District_Adjacencies>
+		<Delete DistrictType="DISTRICT_HARBOR" YieldChangeId="SeaResource_Gold"/> 
+		<Delete DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="SeaResource_Gold"/> 
+		<Delete DistrictType="DISTRICT_HARBOR" YieldChangeId="District_Gold"/> 
+		<Delete DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="District_Gold"/> 
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="TCS_SeaResource_Food"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="TCS_SeaResource_Food"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="TCS_CityCenter_Gold2"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="TCS_CityCenter_Gold2"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="TCS_CityCenter_Gold"/>	
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="TCS_Entertainment_Gold"/>	
+		<Row DistrictType="DISTRICT_AERODROME" YieldChangeId="TCS_Neighborhood_Gold"/>
+		<Row DistrictType="DISTRICT_AERODROME" YieldChangeId="TCS_Commercial_Gold4"/>
+		<Row DistrictType="DISTRICT_AERODROME" YieldChangeId="TCS_CityCenter_Gold2"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="TCS_SeaResource_Food" Description="LOC_TCS_SEARESOURCE_FOOD" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentSeaResource="true"/>
+		<Row ID="TCS_CityCenter_Gold2" Description="LOC_TCS_CITYCENTER_GOLD2" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="TCS_CityCenter_Gold" Description="LOC_TCS_CITYCENTER_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="TCS_Entertainment_Gold" Description="LOC_TCS_ENTERTAINMENT_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row ID="TCS_Neighborhood_Gold" Description="LOC_TCS_NEIGHBORHOOD_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_NEIGHBORHOOD"/>
+		<Row ID="TCS_Commercial_Gold4" Description="LOC_TCS_COMMERCIAL_GOLD4" YieldType="YIELD_GOLD" YieldChange="4" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+	</Adjacency_YieldChanges>
+	<District_CitizenYieldChanges>
+		<Update>
+			<Where DistrictType="DISTRICT_CAMPUS"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_THEATER"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ACROPOLIS"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HANSA"/>
+			<Set YieldChange="3"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_SCIENCE"/>
+			<Set YieldType="YIELD_FOOD" YieldChange="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_SCIENCE"/>
+			<Set YieldType="YIELD_FOOD" YieldChange="1"/>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_GOLD"/>
+			<Set YieldChange="1"/>
+		</Update>
+		<Row DistrictType="DISTRICT_HARBOR" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</District_CitizenYieldChanges>
+</GameInfo>

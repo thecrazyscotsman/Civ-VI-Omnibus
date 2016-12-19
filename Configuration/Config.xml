@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with Notepad++ by thecrazyscotsman -->
+<GameInfo>
+	<RuleSets>
+		<Row>
+			<RuleSetType>RULESET_ENHANCED</RuleSetType>
+			<Name>LOC_RULESET_ENHANCED_NAME</Name>
+			<Description>LOC_RULESET_ENHANCED_DESCRIPTION</Description>
+			<SupportsSinglePlayer>1</SupportsSinglePlayer>
+		</Row>
+		<Row>
+			<RuleSetType>RULESET_COMPLETE</RuleSetType>
+			<Name>LOC_RULESET_COMPLETE_NAME</Name>
+			<Description>LOC_RULESET_COMPLETE_DESCRIPTION</Description>
+			<SupportsSinglePlayer>1</SupportsSinglePlayer>
+		</Row>
+	</RuleSets>
+	
+	<Parameters>
+		<Row Key1="Ruleset" Key2="RULESET_ENHANCED" ParameterId="NoGoodyHuts" Name="LOC_GAME_NO_GOODY_HUTS" Description="" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GAME_NO_GOODY_HUTS" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<Row Key1="Ruleset" Key2="RULESET_ENHANCED" ParameterId="NoBarbarians" Name="LOC_GAME_NO_BARBARIANS" Description="" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GAME_NO_BARBARIANS" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<Row Key1="Ruleset" Key2="RULESET_COMPLETE" ParameterId="NoGoodyHuts" Name="LOC_GAME_NO_GOODY_HUTS" Description="" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GAME_NO_GOODY_HUTS" GroupId="AdvancedOptions" SortIndex="2010"/>
+		<Row Key1="Ruleset" Key2="RULESET_COMPLETE" ParameterId="NoBarbarians" Name="LOC_GAME_NO_BARBARIANS" Description="" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GAME_NO_BARBARIANS" GroupId="AdvancedOptions" SortIndex="2010"/>
+	</Parameters>
+</GameInfo>

@@ -1,0 +1,19 @@
+<GameInfo>
+	<Building_GreatWorks>
+		<Delete BuildingType="BUILDING_AMPHITHEATER"/>
+		<Delete BuildingType="BUILDING_GREAT_LIBRARY"/>
+		<Delete BuildingType="BUILDING_OXFORD_UNIVERSITY"/>
+		<Delete BuildingType="BUILDING_HERMITAGE"/>
+		<Delete BuildingType="BUILDING_BROADWAY"/>
+		<Delete BuildingType="BUILDING_SYDNEY_OPERA_HOUSE"/>
+		<Row BuildingType="BUILDING_AMPHITHEATER" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_WRITING"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_WRITING"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_WRITING"/>
+		<Row BuildingType="BUILDING_HERMITAGE" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="4" ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+		<Row BuildingType="BUILDING_BROADWAY" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_MUSIC"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3" ThemingUniquePerson="true" ThemingYieldMultiplier="50" ThemingTourismMultiplier="50" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_MUSIC"/>
+	</Building_GreatWorks>
+	<GreatWork_ValidSubTypes>
+		<Row GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" GreatWorkObjectType="GREATWORKOBJECT_SCULPTURE"/>
+	</GreatWork_ValidSubTypes>
+</GameInfo>

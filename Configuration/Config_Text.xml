@@ -1,0 +1,16 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_RULESET_ENHANCED_NAME" Language="en_US">
+			<Text>Omnibus Enhanced</Text>
+		</Replace>
+		<Replace Tag="LOC_RULESET_ENHANCED_DESCRIPTION" Language="en_US">
+			<Text>Standard + minor improvements to theming bonuses, defensive improvements, and units</Text>
+		</Replace>
+		<Replace Tag="LOC_RULESET_COMPLETE_NAME" Language="en_US">
+			<Text>Omnibus Complete</Text>
+		</Replace>
+		<Replace Tag="LOC_RULESET_COMPLETE_DESCRIPTION" Language="en_US">
+			<Text>Enhanced + complete overhaul of strategic resource combat</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

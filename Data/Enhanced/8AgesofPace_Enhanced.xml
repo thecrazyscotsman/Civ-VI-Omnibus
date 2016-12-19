@@ -1,0 +1,52 @@
+<GameInfo>
+	<!-- Created by Olleus for 8 Ages of Pacing (23 Oct 2016) for v1.0.0.26 -->
+	<GlobalParameters>
+		<!-- Increases the amount of food required for population growth to compensate for slower eras-->
+		<!-- Total food surplus to reach pop 6 increased by only ~10%, but total food surplus to reach size 20 doubled. -->
+		<!-- Unchanged, here for reference-->
+		<Update>
+			<Where Name="CITY_GROWTH_THRESHOLD" /> <Set Value="15" />
+		</Update>
+		<!-- Unchanged, here for reference-->
+		<Update>
+			<Where Name="CITY_GROWTH_MULTIPLIER" /> <Set Value="8" />
+		</Update>
+		<!-- Used to be 1.5 -->
+		<Update>
+			<Where Name="CITY_GROWTH_EXPONENT" /> <Set Value="2.1" />
+		</Update>
+		<!-- Drastically speeds up the rate at which culture makes borders expand -->
+		<!-- Little change for first few tiles, the 2nd and 3rd ring should pop in about 2/3 the time -->
+		<!-- Unchanged, here for reference-->
+		<Update>
+			<Where Name="CULTURE_COST_FIRST_PLOT" /> <Set Value="10" />
+		</Update>
+		<!-- Used to be 1.3 -->
+		<Update>
+			<Where Name="CULTURE_COST_LATER_PLOT_EXPONENT" /> <Set Value="1.4" />
+		</Update>
+		<!-- Used to be 6 -->
+		<Update>
+			<Where Name="CULTURE_COST_LATER_PLOT_MULTIPLIER" /> <Set Value="3" />
+		</Update>
+	</GlobalParameters>
+	<Routes>
+		<!-- Some of the updates are redundant, included anyway for clarity -->
+		<Update>
+			<Where RouteType="ROUTE_ANCIENT_ROAD" />
+			<Set MovementCost="1" SupportsBridges="false" PlacementValue="1" />
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_MEDIEVAL_ROAD" />
+			<Set MovementCost="0.5" SupportsBridges="true" PlacementValue="2" PrereqEra="ERA_CLASSICAL" />
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_INDUSTRIAL_ROAD" />
+			<Set MovementCost="0.25" SupportsBridges="true" PlacementValue="3" PrereqEra="ERA_RENAISSANCE" Name="LOC_ROUTE_INDUSTRIAL_ROAD_NAME"/>
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_MODERN_ROAD" />
+			<Set MovementCost="0.2" SupportsBridges="true" PlacementValue="4" PrereqEra="ERA_MODERN" />
+		</Update>
+	</Routes>
+</GameInfo>

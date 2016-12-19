@@ -1,0 +1,826 @@
+<GameData>
+	<LocalizedText>
+		<!--UNITS-->
+		<!--Updated Descriptions-->
+		<Replace Tag="LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION" Language="en_US">
+			<Text>Classical era support unit. Can construct Forts, Roads, Airstrip, and Missile Silo improvements.</Text>
+		</Replace>
+		
+		<!--UNIT ABILITIES-->
+		<!--New-->
+		<Replace Tag="LOC_ABILITY_STRONG_SCOUT_NAME" Language="en_US">
+			<Text>Skirmisher</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ANCESTRAL_HOMELAND_NAME" Language="en_US">
+			<Text>Guardian</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STRATEGOS_BONUS_EXPERIENCE_NAME" Language="en_US">
+			<Text>Drill</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEVOTION_SPREADCHARGES_NAME" Language="en_US">
+			<Text>Devotion</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FREEDOM_FIGHTERS_NAME" Language="en_US">
+			<Text>Freedom Fighters</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STRONG_SCOUT_DESCRIPTION" Language="en_US">
+			<Text>+4 due to Survey policy.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ANCESTRAL_LANDS_DESCRIPTION" Language="en_US">
+			<Text>+4 in friendly territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_STRATEGOS_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
+			<Text>+20% experience from Strategos policy.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DEVOTION_SPREADCHARGES_DESCRIPTION" Language="en_US">
+			<Text>+1 spread charge.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_FREEDOM_FIGHTERS_DESCRIPTION" Language="en_US">
+			<Text>+4 in friendly territory.</Text>
+		</Replace>
+		
+		<!--CIVIC OVERHAUL-->
+		<!--New Names-->
+		<Replace Tag="LOC_CIVIC_TRIBAL_COUNCIL_NAME" Language="en_US">
+			<Text>Code of Laws</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_ALPHABET_NAME" Language="en_US">
+			<Text>Alphabet</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MYTHOLOGIES_NAME" Language="en_US">
+			<Text>Mythologies</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_WARRIOR_CODE_NAME" Language="en_US">
+			<Text>Warrior Code</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_POLYTHEISM_NAME" Language="en_US">
+			<Text>Polytheism</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MUSIC_NAME" Language="en_US">
+			<Text>Music</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_JURISPRUDENCE_NAME" Language="en_US">
+			<Text>Jurisprudence</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_ORGANIZED_RELIGION_NAME" Language="en_US">
+			<Text>Organized Religion</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_BUREAUCRACY_NAME" Language="en_US">
+			<Text>Bureaucracy</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_LOGISTICS_NAME" Language="en_US">
+			<Text>Logistics</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_PATRONAGE_NAME" Language="en_US">
+			<Text>Patronage</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_AESTHETICS_NAME" Language="en_US">
+			<Text>Aesthetics</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_PERSPECTIVE_NAME" Language="en_US">
+			<Text>Perspective</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_LEVEE_EN_MASSE_NAME" Language="en_US">
+			<Text>Lévee en Masse</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MARXISM_NAME" Language="en_US">
+			<Text>Marxism</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_SOCIAL_REVOLUTION_NAME" Language="en_US">
+			<Text>Social Revolution</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_VIRTUAL_REALITY_NAME" Language="en_US">
+			<Text>Virtual Reality</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_ASYMMETRICAL_WARFARE_NAME" Language="en_US">
+			<Text>Asymmetrical Warfare</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_UTOPIA_NAME" Language="en_US">
+			<Text>Utopia Project</Text>
+		</Replace>
+		
+		<!--Updated Names-->
+		<Replace Tag="LOC_CIVIC_CODE_OF_LAWS_NAME" Language="en_US">
+			<Text>Tribal Council</Text>
+		</Replace>
+		
+		<!--POLICY OVERHAUL-->
+		<!--New Names-->
+		<Replace Tag="LOC_POLICY_ANCESTRAL_HOMELAND_NAME" Language="en_US">
+			<Text>Ancestral Homeland</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DEVOTION_NAME" Language="en_US">
+			<Text>Devotion</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FREEDOM_FIGHTERS_NAME" Language="en_US">
+			<Text>Freedom Fighters</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_IMAGINARIUMS_NAME" Language="en_US">
+			<Text>Imaginariums</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PATRONAGE_NAME" Language="en_US">
+			<Text>Patronage</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_POLITICAL_SCIENCE_NAME" Language="en_US">
+			<Text>Political Science</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PROTOTYPING_NAME" Language="en_US">
+			<Text>Prototyping</Text>
+		</Replace>
+		
+		<!--Updated Names-->
+		<Replace Tag="LOC_POLICY_CARAVANSARIES_NAME" Language="en_US">
+			<Text>Silk Road</Text>
+		</Replace>
+		
+		<!--New Descriptions-->
+		<Replace Tag="LOC_POLICY_ANCESTRAL_HOMELAND_DESCRIPTION" Language="en_US">
+			<Text>Infantry units receive +4 [ICON_Strength] Combat Strength when in friendly territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_DEVOTION_DESCRIPTION" Language="en_US">
+			<Text>Religious units receive +1 spread charge.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FREEDOM_FIGHTERS_DESCRIPTION" Language="en_US">
+			<Text>Units receive +4 [ICON_Strength] Combat Strength when in friendly territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_IMAGINARIUMS_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Amenities] Amenities from Research Labs.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PATRONAGE_DESCRIPTION" Language="en_US">
+			<Text>Theater districts provide [ICON_Production] Production equal to their adjacency bonus.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_POLITICAL_SCIENCE_DESCRIPTION" Language="en_US">
+			<Text>Campus and Theater districts provide +1 Influence Point per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PROTOTYPING_DESCRIPTION" Language="en_US">
+			<Text>Campus districts provide [ICON_Production] Production equal to their adjacency bonus.</Text>
+		</Replace>
+		
+		<!--Updated Descriptions-->
+		<Replace Tag="LOC_POLICY_GOD_KING_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Gold] Gold, +1 [ICON_Faith] Faith, +1 [ICON_Amenities] Amenities in the Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION" Language="en_US">
+			<Text>+10% Growth in all cities. Reduce the cost of purchasing tiles by 20%.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INSPIRATION_DESCRIPTION" Language="en_US">
+			<Text>Shrines produce +1 [ICON_Science] Science. +2 [ICON_GreatScientist] Great Scientist points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_STRATEGOS_DESCRIPTION" Language="en_US">
+			<Text>Military units receive +20% experience in combat. +2 [ICON_GreatGeneral] Great General points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SURVEY_DESCRIPTION" Language="en_US">
+			<Text>Double experience and +4 [ICON_Strength] Combat Strength for Recon units.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_URBAN_PLANNING_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production and +1 [ICON_Housing] Housing in all cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INSULAE_DESCRIPTION" Language="en_US">
+			<Text>Cities with an Aqueduct receive +1 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenities.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LITERARY_TRADITION_DESCRIPTION" Language="en_US">
+			<Text>[ICON_GreatWork_Writing] Great Works of Writing produce +1 [ICON_Culture] Culture. +2 [ICON_GreatWriter] Great Writer points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_BASTIONS_DESCRIPTION" Language="en_US">
+			<Text>+6 City [ICON_Strength] Defense Strength. +5 City [ICON_Ranged] Ranged Strength. +100% [ICON_Production] Production toward defensive buildings.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_VETERANCY_DESCRIPTION" Language="en_US">
+			<Text>Military units heal in neutral and hostile territory as if they were in friendly territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIMES_DESCRIPTION" Language="en_US">
+			<Text>+4 City [ICON_Ranged] Ranged Strength. +50% [ICON_Production] Production towards Encampment districts and buildings. </Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RAID_DESCRIPTION" Language="en_US">
+			<Text>Melee and Anti-Cavalry units receive +1 [ICON_Movement] Movement. Yields from pillaging improvements are doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION" Language="en_US">
+			<Text>+50% Campus district adjacency bonuses.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NAVIGATION_DESCRIPTION" Language="en_US">
+			<Text>Naval units receive +1 [ICON_Movement] Movement. +2 [ICON_GreatAdmiral] Great Admiral points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RETAINERS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold and +1 [ICON_Amenities] Amenities for cities with a garrisoned unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MERITOCRACY_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Culture] Culture, +4 [ICON_Science] Science, +4 [ICON_Production] Production in the [ICON_Capital] Capital.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_AESTHETICS_DESCRIPTION" Language="en_US">
+			<Text>+50% Theater Square adjacency bonuses.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION" Language="en_US">
+			<Text>+50% Industrial Zone adjacency bonuses.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Housing] Housing in all cities with a least 2 specialty districts. +4 City [ICON_Strength] Defense Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOWN_CHARTERS_DESCRIPTION" Language="en_US">
+			<Text>+50% Commercial Hub adjacency bonuses.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LOGISTICS_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement when starting turn in friendly territory.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TRAVELING_MERCHANTS_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold from [ICON_TradeRoute] Trade Routes. +2 [ICON_GreatMerchant] Great Merchant points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_INVENTION_DESCRIPTION" Language="en_US">
+			<Text>Workshops produce +2 [ICON_Science] Science. +2 [ICON_GreatEngineer] Great Engineer points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FRESCOES_DESCRIPTION" Language="en_US">
+			<Text>Great Works of Art [ICON_GreatWork_Portrait][ICON_GreatWork_Religious][ICON_GreatWork_Landscape] produce +1 [ICON_Culture] Culture. +2 [ICON_GreatArtist] Great Artist points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LIBERALISM_DESCRIPTION" Language="en_US">
+			<Text>+15% [ICON_Tourism] Tourism to civilizations to which you have a [ICON_TradeRoute] Trade Route.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION" Language="en_US">
+			<Text>Settler cost reduced by 60%. Plot purchase cost reduced by 30%.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_ORGANIZATION_DESCRIPTION" Language="en_US">
+			<Text>Military units receive +20% experience in combat. +4 [ICON_GreatGeneral] Great General points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MILITARY_RESEARCH_DESCRIPTION" Language="en_US">
+			<Text>Military Academies and Seaports generate +5% City [ICON_Science] Science each.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION" Language="en_US">
+			<Text>Great Works of Music [ICON_GreatWork_Music] produce +1 [ICON_Culture] Culture. +4 [ICON_GreatMusician] Great Musician points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_TOTAL_WAR_DESCRIPTION" Language="en_US">
+			<Text>Accumulate 25% less war weariness than usual. Yields from pillaging are doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_ECONOMIC_UNION_DESCRIPTION" Language="en_US">
+			<Text>+50% Commercial Hub adjacency bonuses and +100% Harbor adjacency bonuses.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_FIVE_YEAR_PLAN_DESCRIPTION" Language="en_US">
+			<Text>+50% Campus and Industrial Zone adjacency bonuses.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Gold] Gold from [ICON_TradeRoute] Trade Routes. +4 [ICON_GreatMerchant] Great Merchant Points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_MARTIAL_LAW_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Amenities] Amenities for cities with a garrisoned unit. Accumulate 25% less War Weariness than usual.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NEW_DEAL_DESCRIPTION" Language="en_US">
+			<Text>+4 [ICON_Housing] Housing, +2 [ICON_Amenities] Amenities, -6 [ICON_Gold] Gold to all cities with at least 3 specialty districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION" Language="en_US">
+			<Text>Research Labs produce +10% City [ICON_Science] Science. +4 [ICON_GreatScientist] Great Scientist points per turn.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_PROPAGANDA_DESCRIPTION" Language="en_US">
+			<Text>Accumulate 40% less war weariness than usual.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION" Language="en_US">
+			<Text>+50% Theater Square adjacency bonuses, and Stadiums generate +1 [ICON_Amenities] Amenities.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production toward Information era air units, and toward all Carriers.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_RESOURCE_MANAGEMENT_DESCRIPTION" Language="en_US">
+			<Text>Receive 1 free copy of each Strategic Resource other than Uranium.</Text>
+		</Replace>
+		
+		<!--TECHNOLOGY OVERHAUL-->
+		<!--New Names-->
+		<Replace Tag="LOC_TECH_FISHING_NAME" Language="en_US">
+			<Text>Fishing</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MAP_MAKING_NAME" Language="en_US">
+			<Text>Map Making</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CLASSICAL_SCIENCE_NAME" Language="en_US">
+			<Text>Classical Science</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MAGNETISM_NAME" Language="en_US">
+			<Text>Magnetism</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_METALLURGY_NAME" Language="en_US">
+			<Text>Metallurgy</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INVENTION_NAME" Language="en_US">
+			<Text>Invention</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CLOCK_MAKING_NAME" Language="en_US">
+			<Text>Clock Making</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ADVANCED_MATHEMATICS_NAME" Language="en_US">
+			<Text>Advanced Mathematics</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_NAME" Language="en_US">
+			<Text>Refining</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_RAILROAD_NAME" Language="en_US">
+			<Text>Railroad</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_PHYSICS_NAME" Language="en_US">
+			<Text>Physics</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ELECTRONICS_NAME" Language="en_US">
+			<Text>Electronics</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MOBILE_WARFARE_NAME" Language="en_US">
+			<Text>Mobile Warfare</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ATOMIC_THEORY_NAME" Language="en_US">
+			<Text>Atomic Theory</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SPACE_FLIGHT_NAME" Language="en_US">
+			<Text>Space Flight</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INTERNET_NAME" Language="en_US">
+			<Text>The Internet</Text>
+		</Replace>
+		
+		<!--Updated Names-->
+		<Replace Tag="LOC_TECH_CARTOGRAPHY_NAME" Language="en_US">
+			<Text>Compass</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SCIENTIFIC_THEORY_NAME" Language="en_US">
+			<Text>Scientific Method</Text>
+		</Replace>
+		
+		<!--New Descriptions-->
+		<Replace Tag="LOC_TECH_FISHING_DESCRIPTION" Language="en_US">
+			<Text>Allows Builders to embark.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MAGNETISM_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold from the Fishing Boat improvement.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INTERNET_DESCRIPTION" Language="en_US">
+			<Text>All [ICON_Tourism] Tourism yields are doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MAP_MAKING" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement for all naval units.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_GOLD] Gold from the Mine improvement.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INVENTION_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_FOOD] Food from the Plantation improvement.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_RAILROAD_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_PRODUCTION] Production from the Quarry improvement.</Text>
+		</Replace>
+		
+		<!--Updated Descriptions-->
+		<Replace Tag="LOC_TECH_SAILING_DESCRIPTION" Language="en_US">
+			<Text>Allows Scouts to embark.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CELESTIAL_NAVIGATION_DESCRIPTION" Language="en_US">
+			<Text>Allows all land units to embark, and allows harvesting of [ICON_RESOURCE_FISH] Fish.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_COMPUTERS_DESCRIPTION" Language="en_US">
+			<Text>Grants the ability to construct an additional Spy.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="en_US">
+			<Text>All naval and embarked units can navigate Ocean tiles. +1 [ICON_Movement] Movement for embarked units.</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_FOOD] from the Plantation improvement.</Text>
+		</Replace>
+		
+		<!--BOOSTS-->
+		<!--Techs-->
+		<Replace Tag="LOC_BOOST_TRIGGER_FISHING" Language="en_US">
+			<Text>Kill a Quadrireme unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_FISHING" Language="en_US">
+			<Text>Discovering new lands has inspired your people build ships to colonize them.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MAP_MAKING" Language="en_US">
+			<Text>Build 2 Harbors.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MAP_MAKING" Language="en_US">
+			<Text>Constructing Harbors gives you the infrastructure to finance voyages of exploration.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CLASSICAL_SCIENCE" Language="en_US">
+			<Text>Build 2 Libraries.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CLASSICAL_SCIENCE" Language="en_US">
+			<Text>Philosophers peruse your libraries to build on the knowledge of their predecessors.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_METALLURGY" Language="en_US">
+			<Text>Build 2 Military Engineers</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_METALLURGY" Language="en_US">
+			<Text>Your Military Engineers have given you valuable practical knowledge in metalworking.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MAGNETISM" Language="en_US">
+			<Text>Reach level 3 with a Naval unit.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MAGNETISM" Language="en_US">
+			<Text>Your experienced ship captains have charted new seas with the latest technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_CLOCK_MAKING" Language="en_US">
+			<Text>Have the Medieval Faires civic.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CLOCK_MAKING" Language="en_US">
+			<Text>Your faires have triggered competition amongst your craftsmen to create ever more wondrous mechanisms.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_INVENTION" Language="en_US">
+			<Text>Earn a Great Engineer.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_INVENTION" Language="en_US">
+			<Text>The practices of your Great Engineer have launched a wave of innovation throughout your people.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ADVANCED_MATHEMATICS" Language="en_US">
+			<Text>Build a Printer.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ADVANCED_MATHEMATICS" Language="en_US">
+			<Text>New scientific journals are encouraging specialized research and training.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_REFINING" Language="en_US">
+			<Text>Build a Foundry.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_REFINING" Language="en_US">
+			<Text>Advances in industrial efficiency provide lucrative opportunities to exploit mineral resources.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_COMPASS" Language="en_US">
+			<Text>Own 2 Quadriremes.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_COMPASS" Language="en_US">
+			<Text>Further advances in shipbuilding inspire your people to new innovations.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_RAILROAD" Language="en_US">
+			<Text>Build a Gristmill.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_RAILROAD" Language="en_US">
+			<Text>Industrializing food production has encouraged your people to develop better methods of transport. </Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MOBILE_WARFARE" Language="en_US">
+			<Text>Own 3 Infantry.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MOBILE_WARFARE" Language="en_US">
+			<Text>Military exercises have led to the development of new battlefield weapons and tactics.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_PHYSICS" Language="en_US">
+			<Text>Own 3 Field Cannon.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PHYSICS" Language="en_US">
+			<Text>The push to improve weapon ranges has led to advances in the understanding of Physics.</Text>
+		</Replace>
+		<!--Civics-->
+		<Replace Tag="LOC_BOOST_TRIGGER_TRIBAL_COUNCIL" Language="en_US">
+			<Text>Research the Irrigation technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_TRIBAL_COUNCIL" Language="en_US">
+			<Text>Your people have learned advanced cultivation techniques, allowing a large population which must be governed by laws.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MYTHOLOGIES" Language="en_US">
+			<Text>Build 2 Holy Sites.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MYTHOLOGIES" Language="en_US">
+			<Text>Your people are gathering to seek the wisdom of the gods.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_WARRIOR_CODE" Language="en_US">
+			<Text>Kill 1 Barbarian.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_WARRIOR_CODE" Language="en_US">
+			<Text>Members of your tribe have gathered together to protect your people.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_POLYTHEISM" Language="en_US">
+			<Text>Found 2 cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_POLYTHEISM" Language="en_US">
+			<Text>Your people have encountered new gods as they settle the wilderness.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MUSIC" Language="en_US">
+			<Text>Build 2 Shrines.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MUSIC" Language="en_US">
+			<Text>Your people have started to develop a musical tradition to better praise the gods.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_JURISPRUDENCE" Language="en_US">
+			<Text>Build 3 Monuments.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_JURISPRUDENCE" Language="en_US">
+			<Text>You have erected Monuments in your cities to establish a common law throughout the land.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ORGANIZED_RELIGION" Language="en_US">
+			<Text>Own 2 Missionaries.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ORGANIZED_RELIGION" Language="en_US">
+			<Text>The flowering of your religion has led to an evolution of its beliefs.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_BUREAUCRACY" Language="en_US">
+			<Text>Build 2 Agora.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_BUREAUCRACY" Language="en_US">
+			<Text>Your government's reach is expanding through the cultivation of educated bureaucrats.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LOGISTICS" Language="en_US">
+			<Text>Research the Castles technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_LOGISTICS" Language="en_US">
+			<Text>The development of Castles has led to a revolution in battlefield logistics.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_PATRONAGE" Language="en_US">
+			<Text>Build 2 Amphitheaters.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PATRONAGE" Language="en_US">
+			<Text>Your civilization's wealthy classes have started to commission cultural works, leading to a renaissance.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_AESTHETICS" Language="en_US">
+			<Text>Build a Guild Hall.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_AESTHETICS" Language="en_US">
+			<Text>Cultural societies have been founded in order to encourage the arts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_PERSPECTIVE" Language="en_US">
+			<Text>Build an Observatory.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_PERSPECTIVE" Language="en_US">
+			<Text>Advances in ocular lenses have led to a greater understanding of Perspective.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LEVEE_EN_MASSE" Language="en_US">
+			<Text>Grow your civilization to at least 50 population.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_LEVEE_EN_MASSE" Language="en_US">
+			<Text>A large population allows your civilization to levy and support a substantial military force.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SCORCHED_EARTH" Language="en_US">
+			<Text>Pillage a tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SCORCHED_EARTH" Language="en_US">
+			<Text>Your military has found that pillaging enemy resources provides much-needed supplies and booty.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_MARXISM" Language="en_US">
+			<Text>Build an Opera House.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_MARXISM" Language="en_US">
+			<Text>The widening gulf between the wealthy and the poor has furthered the development of radical political philosophies.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_SOCIAL_REVOLUTION" Language="en_US">
+			<Text>Earn 9 Great People.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_SOCIAL_REVOLUTION" Language="en_US">
+			<Text>Charismatic and passionate leaders are pushing for greater freedom and providing voices to the downtrodden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_VIRTUAL_REALITY" Language="en_US">
+			<Text>Research The Internet technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_VIRTUAL_REALITY" Language="en_US">
+			<Text>The widespread adoption of the Internet has led to the creation of virtual worlds, where people can escape their ordinary existence.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_ASYMMETRICAL_WARFARE" Language="en_US">
+			<Text>Research the Guidance Systems technology.</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_ASYMMETRICAL_WARFARE" Language="en_US">
+			<Text>The creation of advanced weaponry has left those without it with little choice but to develop new tactics to fight advanced opponents.</Text>
+		</Replace>
+		
+		<!--QUOTES-->
+		<!--Techs-->
+		<Replace Tag="LOC_TECH_FISHING_QUOTE" Language="en_US">
+			<Text>"Give a man a fish and you feed him for a day. Teach a man how to fish and you feed him for a lifetime."[NEWLINE]- Lao Tzu</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MAP_MAKING_QUOTE" Language="en_US">
+			<Text>"One doesn't discover new lands without losing sight of the shore."[NEWLINE]- Andre Gide</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CLASSICAL_SCIENCE_QUOTE" Language="en_US">
+			<Text>"There is only one good, knowledge, and one evil, ignorance."[NEWLINE]- Socrates</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MAGNETISM_QUOTE" Language="en_US">
+			<Text>"Magnetism, as you recall from physics class, is a powerful force that causes certain items to be attracted to refrigerators."[NEWLINE]- Dave Berry</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_METALLURGY_QUOTE" Language="en_US">
+			<Text>"And them that take the sword shall perish by the sword."[NEWLINE]- The Bible, Matthew</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INVENTION_QUOTE" Language="en_US">
+			<Text>“To invent, you need a good imagination and a pile of junk.”[NEWLINE]- Thomas Edison</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_CLOCK_MAKING_QUOTE" Language="en_US">
+			<Text>"God is a meticulous clockmaker. So precise is His order that everything on earth happens in its own time."[NEWLINE]- Elif Shafak </Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ADVANCED_MATHEMATICS_QUOTE" Language="en_US">
+			<Text>"If in other sciences we should arrive at certainty without doubt and truth without error, it behooves us to place the foundations of knowledge in mathematics."[NEWLINE]- Roger Bacon</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_REFINING_QUOTE" Language="en_US">
+			<Text>"I fooled you, I fooled you, I got pig iron, I got pig iron, I got all pig iron."[NEWLINE]- Lonnie Donegan</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_RAILROAD_QUOTE" Language="en_US">
+			<Text>"The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man."[NEWLINE]- Thomas Jefferson</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_PHYSICS_QUOTE" Language="en_US">
+			<Text>"Measure what is measurable, and make measurable what is not so."[NEWLINE]- Galileo</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_MOBILE_WARFARE_QUOTE" Language="en_US">
+			<Text>"I would rather be the hammer than the anvil."[NEWLINE]- Erwin Rommel</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ELECTRONICS_QUOTE" Language="en_US">
+			<Text>"There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time."[NEWLINE]- Trip Hawkins</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_ATOMIC_THEORY_QUOTE" Language="en_US">
+			<Text>"The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes."[NEWLINE]- Albert Einstein</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_SPACE_FLIGHT_QUOTE" Language="en_US">
+			<Text>"Now, somehow, in some new way, the sky seemed almost alien."[NEWLINE]- Lyndon B. Johnson</Text>
+		</Replace>
+		<Replace Tag="LOC_TECH_INTERNET_QUOTE" Language="en_US">
+			<Text>"We are all now connected by the Internet, like neurons in a giant brain."[NEWLINE]- Stephen Hawking</Text>
+		</Replace>
+		<!--Civics-->
+		<Replace Tag="LOC_CIVIC_TRIBAL_COUNCIL_QUOTE" Language="en_US">
+			<Text>"A tribe is a group of people connected to one another, connected to a leader, and connected to an idea."[NEWLINE]- Seth Godin</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MYTHOLOGIES_QUOTE" Language="en_US">
+			<Text>"It has been well said that mythology is the penultimate truth - penultimate because the ultimate cannot be put into words."[NEWLINE]- Joseph Campbell</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_WARRIOR_CODE_QUOTE" Language="en_US">
+			<Text>"Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win."[NEWLINE]- Sun Tzu</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_POLYTHEISM_QUOTE" Language="en_US">
+			<Text>"Not at all similar are the race of the immortal gods and the race of men who walk upon the earth."[NEWLINE]- Homer</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MUSIC_QUOTE" Language="en_US">
+			<Text>"If music be the food of love, play on."[NEWLINE]- William Shakespeare</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_JURISPRUDENCE_QUOTE" Language="en_US">
+			<Text>“The first requirement of a sound body of law is, that it should correspond with the actual feelings and demands of the community, whether right or wrong.”[NEWLINE]- Oliver Wendell Holmes Jr.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_ORGANIZED_RELIGION_QUOTE" Language="en_US">
+			<Text>"Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do."[NEWLINE]- St. Thomas Aquinas</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_BUREAUCRACY_QUOTE" Language="en_US">
+			<Text>"The bureaucracy is expanding to meet the needs of the expanding bureaucracy."[NEWLINE]- Unknown</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_LOGISTICS_QUOTE" Language="en_US">
+			<Text>"The battle is fought and decided by the quartermasters, long before the shooting begins."[NEWLINE]- Erwin Rommel</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_PATRONAGE_QUOTE" Language="en_US">
+			<Text>“Every child is an artist. The problem is how to remain an artist once he grows up.”[NEWLINE]- Pablo Picasso</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_AESTHETICS_QUOTE" Language="en_US">
+			<Text>"Art for art's sake is an empty phrase. Art for the sake of truth, art for the sake of the good and the beautiful, that is the faith I am searching for."[NEWLINE]- George Sand</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_PERSPECTIVE_QUOTE" Language="en_US">
+			<Text>“The trick to forgetting the big picture is to look at everything close up.”[NEWLINE]- Chuck Palahniuk</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_LEVEE_EN_MASSE_QUOTE" Language="en_US">
+			<Text>"A man does not have himself killed for a half-pence a day or for a petty distinction. You must speak to the soul in order to electrify him."[NEWLINE]- Napoleon Bonaparte</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_MARXISM_QUOTE" Language="en_US">
+			<Text>“Without Revolutionary theory, there can be no Revolutionary Movement.”[NEWLINE]- Vladimir Ilyich Lenin</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_SOCIAL_REVOLUTION_QUOTE" Language="en_US">
+			<Text>"Social progress can be measured by the social position of the female sex."[NEWLINE]- Karl Marx</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_VIRTUAL_REALITY_QUOTE" Language="en_US">
+			<Text>"When virtual reality gets cheaper than dating, society is doomed."[NEWLINE]- Scott Adams</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_ASYMMETRICAL_WARFARE_QUOTE" Language="en_US">
+			<Text>"The strong do what they will, the weak do what they must."[NEWLINE]- Thucydides</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVIC_UTOPIA_QUOTE" Language="en_US">
+			<Text>“A map of the world that does not include Utopia is not worth even glancing at....Progress is the realisation of Utopias.”[NEWLINE]- Oscar Wilde</Text>
+		</Replace>
+		
+		<!--BUILDINGS-->
+		<!--New Names-->
+		<Replace Tag="LOC_BUILDING_AGORA_NAME" Language="en_US">
+			<Text>Agora</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_APOTHECARY_NAME" Language="en_US">
+			<Text>Apothecary</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AQUAFARMS_NAME" Language="en_US">
+			<Text>Aquafarms</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ARSENAL_NAME" Language="en_US">
+			<Text>Arsenal</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BASILICA_NAME" Language="en_US">
+			<Text>Basilica</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BRICKWORKS_NAME" Language="en_US">
+			<Text>Brickworks</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BRICKYARD_NAME" Language="en_US">
+			<Text>Brickyard</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CARAVANSARY_NAME" Language="en_US">
+			<Text>Caravansary</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CONFECTIONARY_NAME" Language="en_US">
+			<Text>Confectionary</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FOUNDRY_NAME" Language="en_US">
+			<Text>Foundry</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GRISTMILL_NAME" Language="en_US">
+			<Text>Gristmill</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GROCER_NAME" Language="en_US">
+			<Text>Grocer</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GUILD_HALL_NAME" Language="en_US">
+			<Text>Guild Hall</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HOSPITAL_NAME" Language="en_US">
+			<Text>Hospital</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KILN_NAME" Language="en_US">
+			<Text>Kiln</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MILITARY_BASE_NAME" Language="en_US">
+			<Text>Military Base</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OBSERVATORY_NAME" Language="en_US">
+			<Text>Observatory</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_NAME" Language="en_US">
+			<Text>Opera House</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PRINTER_NAME" Language="en_US">
+			<Text>Printer</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RELIQUARY_NAME" Language="en_US">
+			<Text>Reliquary</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SUPERMARKET_NAME" Language="en_US">
+			<Text>Supermarket</Text>
+		</Replace>
+		
+		<!--New Descriptions-->
+		<Replace Tag="LOC_BUILDING_APOTHECARY_DESCRIPTION" Language="en_US">
+			<Text>+10% city growth. +1 [ICON_Food] from Forest tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_AQUAFARMS_DESCRIPTION" Language="en_US">
+			<Text>+10% city growth. +1 [ICON_Food] from Sea tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ARSENAL_DESCRIPTION" Language="en_US">
+			<Text>Raises the strength of your outer defenses. +2 [ICON_Production] when building Units.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BASILICA_DESCRIPTION" Language="en_US">
+			<Text>+15% [ICON_Faith] Faith in this city. Cannot be built in the same city as the Reliquary.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BRICKWORKS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Production] Production when constructing Buildings and Districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BRICKYARD_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Production] Production when constructing Buildings and Districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CARAVANSARY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold from city international [ICON_TradeRoute] Trade Routes per bonus resource owned by city. Cannot be built in the same city as the Guild Hall.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_FOUNDRY_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold from Mine and Quarry improvements. Cannot be built in the same city as the Gristmill.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GRISTMILL_DESCRIPTION" Language="en_US">
+			<Text>Provides [ICON_Food] Food equal to the Industrial Zone's [ICON_Production] Production adjacency bonus. Cannot be built in the same city as the Foundry.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GROCER_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food from Farm improvements.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GUILD_HALL_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold and +1 [ICON_Production] Production from Plantation improvements. Cannot be built in the same city as the Caravansary.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HOSPITAL_DESCRIPTION" Language="en_US">
+			<Text>+20% city growth.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KILN_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Production] Production when constructing Buildings and Districts.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MILITARY_BASE_DESCRIPTION" Language="en_US">
+			<Text>Raises the strength of your outer defenses. +4 [ICON_Production] when building Units.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OBSERVATORY_DESCRIPTION" Language="en_US">
+			<Text>Provides the Campus with an additional standard adjacency bonus from Mountains. Cannot be built in the same city as the Printer.</Text>
+		</Replace>
+		<Replace Tag="LOC_OBSERVATORY_MOUNTAIN_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Mountains {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>Bonus is extended to all cities within 6 tiles.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_PRINTER_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Science] Science from [ICON_GreatWork_Writing] Great Works of Writing in this city. Cannot be built in the same city as the Observatory.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RELIQUARY_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Gold] Gold and +1 [ICON_Culture] Culture from [ICON_GreatWork_Relic] Relics in this city. Cannot be built in the same city as the Basilica.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SUPERMARKET_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food from Farm improvements.</Text>
+		</Replace>
+		
+		<!--Updated Descriptions-->
+		<Replace Tag="LOC_BUILDING_STAR_FORT_DESCRIPTION" Language="en_US">
+			<Text>Raises the strength of your outer defenses.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Japan. +4 [ICON_Production] Production to all cities within 6 tiles. After researching the Electronics technology this building provides an additional +4 [ICON_Culture] Culture to its city.</Text>
+		</Replace>
+		
+		<!--BELIEFS-->
+		<!--Updated Names-->
+		<Replace Tag="LOC_BELIEF_RELIQUARIES_NAME" Language="en_US">
+			<Text>Holy Sites</Text>
+		</Replace>
+		
+		<!--CITY STATES-->
+		<Replace Tag="LOC_LEADER_TRAIT_KUMASI_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to any city-state provide +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold for every specialty district in the origin city.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_TRAIT_NAN_MADOL_DESCRIPTION" Language="en_US">
+			<Text>Your districts on or next to Coast tiles provide +1 [ICON_Culture] Culture.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
