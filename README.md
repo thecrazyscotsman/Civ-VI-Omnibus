@@ -1,9 +1,9 @@
 # Civ-VI-Omnibus
-LATEST VERSION: 1.2.3, 18 Dec 2016
+**LATEST VERSION: 1.2.3-beta, 18 Dec 2016**
 
 Full feature list available here: https://forums.civfanatics.com/resources/thecrazyscotsmans-omnibus.25695/
 
-View the repository Wiki page for Mod Goals
+View the repository Wiki page for Mod Goals. No pull requests will be approved if they conflict with those goals.
 
 ----------------------------------------------------------------------------------------------------------------
 ###INSTALLATION INSTRUCTIONS###
@@ -11,7 +11,6 @@ View the repository Wiki page for Mod Goals
 Unzip the files into your Documents\My Games\Sid Meier's Civilization VI\Mods directory
 
 **NOTE:** if you want to see the new building icons (identical to the Sewer's for both) follow these steps:
-
 1. Copy the Icons_Buildings.xml, Icons_Civics.xml, and Icons_Tech.xml from Documents\My Games\Sid Meier's Civilization VI\Mods\TCS Omnibus Mod\UI\Icons
 2. Paste those files into C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization VI\Base\Assets\UI\Icons and overwrite the existing files
 
