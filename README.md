@@ -18,7 +18,7 @@ Unzip the files into your Documents\My Games\Sid Meier's Civilization VI\Mods di
 Alternatively, you can manually edit the game's Icon files if, for example, you use other mods which add icons. In each of the Icon files included in the mod there is a list of code between these tags: <!--TSC Omnibus begin--><!--TSC end-->. Copy all of that code and insert it into the corresponding base file.
 
 ----------------------------------------------------------------------------------------------------------
-###Rulesets###
+###RULESETS###
 
 Civilization VI introduces rulesets, a way for modders to provide options within their mods. This mod utilizes this feature extensively by providing three rulesets: Standard, Enhanced, and Complete. In order to select a ruleset other than Standard, you must use Advanced Options when creating a new game and then select from the Ruleset dropdown menu.
 
