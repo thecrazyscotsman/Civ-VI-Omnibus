@@ -54,3 +54,8 @@ Review the list below to see which mods are incompatible with each ruleset:
 This list is not exhaustive. There may be incompatibilities I am not aware of...if you run across an incompatible mod please let me know so that I can add it to the list.
 
 For maximum compatibility, no UI or AI mods are included.
+
+----------------------------------------------------------------------------------------------------------
+###Rulesets###
+
+Civilization VI introduces rulesets, a way for modders to provide options within their mods. This mod utilizes this feature extensively by providing three rulesets: Standard, Enhanced, and Complete. In order to select a ruleset other than Standard, you must use Advanced Options when creating a new game and then select from the Ruleset dropdown menu.
