@@ -1,6 +1,28 @@
 # Civ-VI-Omnibus
 LATEST VERSION: 1.2.3, 18 Dec 2016
 
+--1.2.3 Patch Notes
+User Settings:
+-Added custom Eureka options (can now leave at default or set to 40%/25%/10%)
+-Added higher Settler population cost option
+-Added higher distance between cities option
+-Added higher unit movement option
+-Redid policy updates to hopefully prevent problems where they were rarely not being correctly applied
+
+Standard Ruleset:
+-"Denounce"diplomacy option is now in red text to stand out more
+-Egypt's Iteru ability now applies to Aqueducts, Neighborhoods, and Airports as well
+
+Enhanced Ruleset:
+-All luxury and strategic resources are now harvestable within your territory
+
+Complete Ruleset:
+-BUGFIX: New district buildings are now correctly buffed by Rationalism, Free Market, and Grand Opera
+-BUGFIX: Invention is no longer boosted by earning any Great Person
+-Celestial Navigation is now boosted by killing a Quadrireme instead of a Galley
+-All land units can now embark at Celestial Navigation instead of Shipbuilding
+
+----------------------------------------------------------------------------------------------------------------
 This Omnibus provides three different options for a variety of gameplay overhauls and enhancements.
 
 This Omnibus Mod represents what I've been working towards with my various mod releases, and is a sequel of sorts to my popular Civ V Omnibus Mod and Building Packs. It's purpose is to provide an enhanced and improved "Vanilla-like" experience by focusing on four core goals:
