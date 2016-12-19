@@ -21,6 +21,7 @@ COMPATIBILITY
 
 Review the list below to see which mods are incompatible with each ruleset:
 
+
 ---Standard Ruleset
 
 Better City Specialization
@@ -38,6 +39,7 @@ Fish Farms (Magil)
 City State Balance Mod (OneLeggedRhino)
 
 Civ 6 Improvements Patch (Xavierlol)
+
 
 ---Enhanced Ruleset
 
@@ -60,6 +62,7 @@ Scout/Ranger Plus (Kavis)
 50 Turn Counterspy (PoundedChicken)
 
 8 Ages of Pace (Olleus)
+
 
 ---Complete Ruleset
 
