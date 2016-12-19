@@ -1,5 +1,6 @@
 # Civ-VI-Omnibus
 LATEST VERSION: 1.2.3, 18 Dec 2016
+Full feature list available here: https://forums.civfanatics.com/resources/thecrazyscotsmans-omnibus.25695/
 
 --1.2.3 Patch Notes
 User Settings:
@@ -52,7 +53,7 @@ I've also implemented a UserSettings.sql document within the mod. At this time t
 A truly fun game of civilization is a balanced one, in that no single strategy is a sure-fire way to victory. I'm committed to constantly tweaking and updating this mod based on your feedback, which is crucial to meeting all of these goals.
 
 I hope that you'll help me play and test this modpack to improve the core Civ VI game experience.
-
+----------------------------------------------------------------------------------------------------------------
 -Rulesets
 
 Civilization VI introduces rulesets, a way for modders to provide options within their mods. This mod utilizes this feature extensively by providing three rulesets: Standard, Enhanced, and Complete. In order to select a ruleset other than Standard, you must use Advanced Options when creating a new game and then select from the Ruleset dropdown menu.
