@@ -11,6 +11,7 @@ View the repository Wiki page for Mod Goals. No pull requests will be approved i
 Unzip the files into your Documents\My Games\Sid Meier's Civilization VI\Mods directory
 
 **NOTE:** if you want to see the new building icons (identical to the Sewer's for both) follow these steps:
+
 1. Copy the Icons_Buildings.xml, Icons_Civics.xml, and Icons_Tech.xml from Documents\My Games\Sid Meier's Civilization VI\Mods\TCS Omnibus Mod\UI\Icons
 2. Paste those files into C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization VI\Base\Assets\UI\Icons and overwrite the existing files
 
