@@ -1,4 +1,6 @@
 # Civ-VI-Omnibus
+LATEST VERSION: 1.2.3, 18 Dec 2016
+
 This Omnibus provides three different options for a variety of gameplay overhauls and enhancements.
 
 This Omnibus Mod represents what I've been working towards with my various mod releases, and is a sequel of sorts to my popular Civ V Omnibus Mod and Building Packs. It's purpose is to provide an enhanced and improved "Vanilla-like" experience by focusing on four core goals:
