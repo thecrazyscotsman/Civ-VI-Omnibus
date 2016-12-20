@@ -753,10 +753,10 @@
 			<Text>+15% [ICON_Faith] Faith in this city. Cannot be built in the same city as the Reliquary.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKWORKS_DESCRIPTION" Language="en_US">
-			<Text>+5 [ICON_Production] Production when constructing Buildings and Districts.</Text>
+			<Text>+6 [ICON_Production] Production when constructing Buildings and +8 [ICON_Production] Production when constructing Districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BRICKYARD_DESCRIPTION" Language="en_US">
-			<Text>+3 [ICON_Production] Production when constructing Buildings and Districts.</Text>
+			<Text>+4 [ICON_Production] Production when constructing Buildings and +6 [ICON_Production] Production when constructing Districts. +1 [ICON_Production] Production from Quarry improvements.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CARAVANSARY_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Gold] Gold from city international [ICON_TradeRoute] Trade Routes per bonus resource owned by city. Cannot be built in the same city as the Guild Hall.</Text>
@@ -777,7 +777,7 @@
 			<Text>+20% city growth.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_KILN_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Production] Production when constructing Buildings and Districts.</Text>
+			<Text>+2 [ICON_Production] Production when constructing Buildings and +4 [ICON_Production] Production when constructing Districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MILITARY_BASE_DESCRIPTION" Language="en_US">
 			<Text>Raises the strength of your outer defenses. +4 [ICON_Production] when building Units.</Text>
