@@ -1,5 +1,5 @@
 # Civ-VI-Omnibus
-**LATEST VERSION: 1.2.3-beta, 18 Dec 2016**
+**LATEST VERSION: 1.2.3b, 20 Dec 2016**
 
 Full feature list available here: https://forums.civfanatics.com/resources/thecrazyscotsmans-omnibus.25695/
 
