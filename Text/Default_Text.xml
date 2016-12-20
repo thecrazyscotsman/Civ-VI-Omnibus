@@ -97,13 +97,13 @@
 			<Text>+1 [ICON_Gold] Gold to [ICON_RESOURCE_COCOA] Cocoa, [ICON_RESOURCE_TRUFFLES] Truffles, and [ICON_RESOURCE_IVORY] Ivory resources.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ARMORY_DESCRIPTION" Language="en_US">
-			<Text>+25% combat experience for all land units trained in this city.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_IRON] Iron and [ICON_RESOURCE_NITER] Niter resources.</Text>
+			<Text>+25% combat experience for all land units trained in this city. +4 [ICON_Production] Production when building units in this city. +1 [ICON_Production] Production to [ICON_RESOURCE_IRON] Iron and [ICON_RESOURCE_NITER] Niter resources.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="en_US">
 			<Text>Bonus [ICON_Gold] Gold equal to the adjacency bonus of the Commercial district.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BARRACKS_DESCRIPTION" Language="en_US">
-			<Text>+25% combat experience for all melee and ranged land units trained in this city.[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Stable.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_COPPER] Copper resources.</Text>
+			<Text>+25% combat experience for all melee and ranged land units trained in this city. +2 [ICON_Production] Production when building units in this city. +1 [ICON_Production] Production to [ICON_RESOURCE_COPPER] Copper resources.[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Stable.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION" Language="en_US">
 			<Text>+15% [ICON_Culture] Culture in this city.</Text>
@@ -126,6 +126,9 @@
 		<Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="en_US">
 			<Text>A building unique to Arabia. Bonus [ICON_Science] Science equal to the adjacency bonus of the Campus district. Provides +5 [ICON_Faith] Faith to its city.</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_MILITARY_ACADEMY_DESCRIPTION" Language="en_US">
+			<Text>+25% combat experience for all land units trained in this city. Faster Corps and Army training. +6 [ICON_Production] Production when building units in this city.</Text>
+		</Replace>
 		<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="en_US">
 			<Text>Holds [ICON_GreatWork_Landscape] Great Works of Art. Bonus [ICON_Culture] Culture equal to the adjacency bonus of the Theater district. May not be built in a Theater Square district that already has an Archaeological Museum.</Text>
 		</Replace>
@@ -145,7 +148,7 @@
 			<Text>Allows the purchasing of Missionaries. Missionaries can only be purchased with [ICON_Faith] Faith.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith to [ICON_RESOURCE_STONE] Stone, [ICON_RESOURCE_INCENSE] Incense, and [ICON_RESOURCE_WINE] Wine resources.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_STABLE_DESCRIPTION" Language="en_US">
-			<Text>+25% combat experience for all cavalry class units trained in this city. May not be built in an Encampment district that already has a Barracks.[NEWLINE][NEWLINE]+1 [ICON_Production] Production to [ICON_RESOURCE_HORSES] Horse resources.</Text>
+			<Text>+25% combat experience for all cavalry class units trained in this city. +2 [ICON_Production] Production when building units in this city. +1 [ICON_Production] Production to [ICON_RESOURCE_HORSES] Horse resources.[NEWLINE][NEWLINE]May not be built in an Encampment district that already has a Barracks.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SHIPYARD_DESCRIPTION" Language="en_US">
 			<Text>+25% combat experience for all naval units trained in this city.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold from Coast and Ocean tiles.[NEWLINE]+1 [ICON_Food] Food from sea resources.</Text>

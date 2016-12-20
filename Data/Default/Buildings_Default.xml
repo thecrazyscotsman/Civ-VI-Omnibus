@@ -104,6 +104,10 @@
 		<Row Building="BUILDING_TCS_WATER_TREATMENT_PLANT" PrereqBuilding="BUILDING_SEWER"/>
 	</BuildingPrereqs>
 	<Building_YieldChanges>
+		<Delete BuildingType="BUILDING_BARRACKS"/>
+		<Delete BuildingType="BUILDING_STABLE"/>
+		<Delete BuildingType="BUILDING_ARMORY"/>
+		<Delete BuildingType="BUILDING_MILITARY_ACADEMY"/>
 		<Delete BuildingType="BUILDING_GRANARY"/>
 		<Delete BuildingType="BUILDING_WATER_MILL"/>
 		<Delete BuildingType="BUILDING_LIGHTHOUSE"/>
